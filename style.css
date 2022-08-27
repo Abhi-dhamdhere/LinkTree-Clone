@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Oswald:wght@500&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: linear-gradient(-50deg, rgb(58, 57, 58),rgb(12, 12, 12));
+    min-height: 110vh;
+}
+
+section{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+div img{
+    padding-top: 50px;
+}
+
+.intro h2{
+    color: rgb(70, 212, 41);
+}
+
+.intro h4{
+    color: rgb(87, 85, 85);;
+}
+
+
+
+.sub-title{
+    margin-top: 10px;
+}
+
+.info-link{
+    background-color:rgb(70, 212, 41) ;
+    border-style: double;
+    border-color: rgb(70, 212, 41);;
+    border-radius: 50px;
+    margin-top: 60px;
+    padding: 15px;  
+}
+
+a{
+    color: rgb(87, 85, 85);
+    text-decoration: none;
+    font-family: 'Noto Serif', serif;
+}
+
+a :hover{
+    background-color: transparent;
+    color: rgb(85, 202, 81);
+    transition: 0.5s ease-in;
+    border-style: double;
+}
+
+.footer{
+    padding-top: 7rem;
+    padding-bottom: 3rem;
+}
+
+.footer--group{
+    display: grid;
+    column-gap: 2rem;
+    justify-content: center;
+}
+
+.footer--social{
+    display: flex;
+    column-gap: 1.25rem;
+}
+
+.footer--social-link{
+    display: inline-flex;
+    padding: .35rem;
+    background-color: rgb(39, 199, 47);
+    border-radius: 50%;
+    font-size: 1.25rem;
+    color:  black;
+    transition: background .4s;
+}
+
+.footer--social-link:hover{
+    background-color: rgb(13, 59, 19);
+}
+
+.footer--copy{
+    font-size: 2.5rem;
+    color: rgb(151, 148, 150);
+    padding-top: 80px;
+    text-align: center;
+}
+
+@media screen and (max-width:768px) {
+    section{
+        width: 100%;
+    }
+}
